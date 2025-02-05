@@ -1,0 +1,112 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    background-color: #F6F6F6;
+    padding-bottom: 200px;
+  }
+  button{
+    cursor: pointer;
+  }
+
+  .cls_outline{
+    display: block;
+  }
+  .cls_haier_outline{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+  .cls_haier_content{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    border-radius: 6px;
+    padding: 22px 2%;
+    min-width: 423px;
+    margin-top: 44px;
+    gap: 12px;
+    box-shadow: 0px 0px 6px 0px rgba(102, 103, 124, 0.2);
+  }
+  .cls_header{
+    display: flex;
+    justify-content: center;
+    padding: 4px 0px;
+  }
+  .cls_haier_heading{
+    font-size: 32px;
+    font-weight: 600;
+    color:#1F528E;
+  }
+  .cls_haier_body{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .cls_haier_div{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .cls_container_label {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.85px;
+    color: #131322;
+    opacity: 0.8;
+  }
+  .cls_container_input {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #848484;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 17.67px;
+    outline: none;
+  }
+  .cls_container_select {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #848484;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 17.67px;
+    outline: none;
+  }
+  .cls_container_textarea{
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #848484;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 17.67px;
+    outline: none;
+    min-height: 120px;
+  }
+  .cls_haier_buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+  }
+  .cls_haier_btn_blue {
+    border-radius: 5px;
+    border: 1px solid #1F528E;
+    background-color: #1F528E;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.03px;
+    padding: 8px 21px;
+
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+    .cls_haier_content{
+        min-width: 90%;
+    }
+  }
